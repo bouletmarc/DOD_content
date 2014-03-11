@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_doors/entarch1"
+	"$surfaceprop" "wood"
+//	"$bumpmap" "models/props_doors/entarch1_normal"
+}

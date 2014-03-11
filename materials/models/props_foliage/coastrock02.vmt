@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture" "models\props_foliage\coastrock02"
+	"$surfaceprop" "rock"
+	"$basealphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .3 .3 .3]"
+	"$envmap" "env_cubemap"
+}
+

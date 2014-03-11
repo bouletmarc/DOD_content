@@ -1,0 +1,93 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"5"
+	"MuzzleFlashScale"		"0.5"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		".8 1 -1.5"
+	"vm_prone_offset" 		"-.5 -.5 -1"
+	"default_team"			"Axis"
+
+	// Weapon characteristics:
+	"Damage"			"85"
+	"Accuracy"			"0.2"
+	"SecondaryAccuracy"		"0.025"
+	"AccuracyMovePenalty"		"0.1"
+	"Recoil"			"20"
+	"Penetration"			"1.0"
+	"FireDelay"			"0.05"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"	
+	"BulletsPerShot"		"2"
+	"WeaponType"			"MG"
+	"clip_size"			"250"
+	"primary_ammo"			"DOD_AMMO_MG42"
+	"secondary_ammo"		"None"
+	"weight"			"20"
+	"item_flags"			"0"
+	"printname"			"#Weapon_mg42"	
+	"bucket"			"0"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"2"
+	"AmmoPickupClips"		"1"
+
+	"Tracer"			"1"
+
+	//Weapon Model
+	"viewmodel"				"models/weapons/v_mg42.mdl"
+	"playermodel"			"models/weapons/w_mg42bu.mdl"
+
+	"deployedmodel"			"models/weapons/w_mg42bd.mdl"
+	"ALTWPN_CRITERIA_DEPLOYED"	"1"
+
+	"reloadmodel"			"models/weapons/w_mg42bd.mdl"
+	"ALTWPN_CRITERIA_RELOADING"	"1"
+
+	"pronedeployedreloadmodel"	"models/weapons/w_mg42bd.mdl"
+	"ALTWPN_CRITERIA_PRONE_DEPLOYED_RELOAD"	"1"
+
+	//Player Animation
+	"anim_prefix"			"mg"
+	"reload_anim_prefix"		"mg42"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Mg42.Shoot"
+		"reload"		"Weapon_Mg42.WorldReload"
+
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"611"
+			"y"		"725"
+			"width"		"413"
+			"height"	"108"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"611"
+			"y"		"725"
+			"width"		"413"
+			"height"	"108"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"165""y"		"261""width"		"78""height"	"110"
+		}
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"87""y"		"243""width"		"79""height"	"64"
+		}
+	}
+}

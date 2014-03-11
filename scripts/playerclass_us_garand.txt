@@ -1,0 +1,28 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_allied_garand"	
+	"playermodel"		"models/player/american_rifleman.mdl"
+	"selectcmd"			"cls_garand"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"ALLIES"
+
+	// Weapon Info
+	"primaryweapon"		"garand"
+	"secondaryweapon"	"riflegren_us"
+	"meleeweapon"		"amerknife"
+
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_rifleman"
+
+	"healthimage"		"cls_us_garand_active"
+	"healthimagebg"		"cls_us_garand_active_bg"
+}

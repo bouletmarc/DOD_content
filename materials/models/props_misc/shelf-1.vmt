@@ -1,0 +1,5 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_misc/shelf-1"
+	"$surfaceprop" "wood"
+}

@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "ground/pi_cobbles1"
+	"$baseTexture2" "ground/pi_ground"
+	"$surfaceprop" "dirt"
+	"%keywords" "dod" 
+}

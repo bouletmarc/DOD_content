@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "stone/stonefloor012a"
+	"$basetexture2" "ground/snow01"
+	"$surfaceprop" "concrete"
+	"$lightwarptexture" "ground\snow_warp"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "ground\snow01_mask"
+	"$blendmodulatetexture" "ground/snowblendtexture"
+//	"$basealphaenvmapmask" "1"
+	"$nodecal" "1"
+}

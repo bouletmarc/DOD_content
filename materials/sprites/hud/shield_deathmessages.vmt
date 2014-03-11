@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites\hud\Shield_DeathMessages"
+	"$translucent"	"1"
+	"$ignorez"	"1"
+}

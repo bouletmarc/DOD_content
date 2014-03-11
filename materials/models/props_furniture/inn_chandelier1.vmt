@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_furniture/inn_chandelier1"
+        "$envmapmask" "models\props_furniture/inn_chandelier1_envmask"
+	"$envmap" "env_cubemap"
+//	"$envmapsaturation" "[.2 .2 .2]"
+	"$envmapcontrast" .7	
+ 		"vertexlitgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.33 .33 .33]"
+ 		}
+
+}

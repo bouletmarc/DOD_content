@@ -1,0 +1,9 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_misc/german_radio"
+	"$bumpmap" "models/props_misc/german_radio_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.35 .35 .35]"
+	"$surfaceprop" "metal"
+}

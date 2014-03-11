@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$basetexture" "sprites\hud/dod_weapons01"
+	"$translucent"	"1"
+	"$ignorez"	"1"
+}

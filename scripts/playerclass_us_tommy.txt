@@ -1,0 +1,31 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_allied_thompson"	
+	"playermodel"		"models/player/american_assault.mdl"
+	"selectcmd"			"cls_tommy"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"ALLIES"
+
+	// Weapon Info
+	"primaryweapon"		"thompson"
+	"secondaryweapon"	"colt"
+	"grenadetype"		"frag_us"
+	"numgrens"			"1"
+	"grenadetype2"		"smoke_us"
+	"numgrens2"			"1"
+
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_assault"
+
+	"healthimage"		"cls_us_thompson_active"
+	"healthimagebg"		"cls_us_thompson_active_bg"
+}

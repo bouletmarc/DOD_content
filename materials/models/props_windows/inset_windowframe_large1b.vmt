@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_windows/inset_windowframe_large1b"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props_windows/inset_windowframe_large1_specularmask"
+}

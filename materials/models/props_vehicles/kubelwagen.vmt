@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_vehicles/kubelwagen_color"
+	"$bumpmap" "models/props_vehicles/kubelwagen_normal"
+}

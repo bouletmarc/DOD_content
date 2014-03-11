@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/weapons/w_models/w_c4_target/w_c4_target"
+	"$translucent"	"1"
+}

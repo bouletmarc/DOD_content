@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "stone/cellarfloor01"
+	"%keywords" "dod"
+	"$bumpmap" "stone/cellarfloor01_normal"
+	"$surfaceprop" "Dirt"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_fortifications/pak40_camonetting"
+	"$nodecal" 1
+	"$alphatest" 1
+}

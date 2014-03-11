@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites\player_icons\german_sniper"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$ignorez" 0
+}

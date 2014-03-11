@@ -1,0 +1,14 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_misc/clock-1"
+	"$envmapmask" "models\props_misc\clock-1_envmask"
+	"$envmap" "env_cubemap"
+//	"$envmapsaturation" "[.2 .1 1]"
+	"$envmapcontrast" .7
+	"$translucent" 1
+ 		"vertexlitgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.33 .33 .33]"
+ 		}
+
+}

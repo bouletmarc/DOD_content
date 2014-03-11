@@ -1,0 +1,12 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_misc/pepper_grinder-1"
+	"$envmapmask" "models\props_misc\pepper_grinder-1_envmask"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" "[.6 .6 .6]"
+	"$envmapcontrast" .7
+ 		"vertexlitgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.33 .33 .33]"
+ 		}
+}

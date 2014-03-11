@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/facade_germany/bldg_comma_low"
+     	"$envmap" "env_cubemap"
+// 	"$basealphaenvmapmask" 1 
+	"$envmapmask" "models/facade_germany/bldg_comma_Low_SPEC01"
+}

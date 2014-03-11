@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props_urban\railingbalcony"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_urban\railingbalcony_ref"
+
+}

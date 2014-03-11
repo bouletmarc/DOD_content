@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_misc/antenna01"
+	
+	"$translucent"	1
+	//"$alpha"	1
+	"$alphatest"	1			
+
+
+
+}

@@ -1,0 +1,5 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"ground/snowyfield_skybox"
+	"$surfaceprop"	"default"
+}

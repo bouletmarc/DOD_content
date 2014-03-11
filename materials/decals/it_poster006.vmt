@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "decals/it_poster006"
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$decal" 1
+	"$decalscale" .25
+	"%keywords" "dod"
+}

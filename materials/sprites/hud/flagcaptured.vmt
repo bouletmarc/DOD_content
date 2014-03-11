@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites\hud\FlagCaptured"
+	"$translucent"	"1"
+	"$ignorez"	"1"
+}

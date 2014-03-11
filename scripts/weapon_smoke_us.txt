@@ -1,0 +1,68 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashScale"		"0"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"6 0 0"
+	"default_team"			"Allies"
+
+	// Weapon characteristics:
+	"Damage"			"0"
+	"Recoil"			"0"
+	"FireDelay"			"0"
+	"CanDrop"			"0"
+	"WeaponType"			"Grenade"
+	"clip_size"			"-1"
+	"primary_ammo"			"DOD_AMMO_SMOKEGRENADE_US"
+	"secondary_ammo"		"None"
+	"weight"			"0"
+	"item_flags"			"0"
+	"printname"			"#Weapon_Smokegrenade"
+	"bucket"			"2"
+	"bucket_position"		"1"
+	
+	// Weapon model
+	"viewmodel"			"models/weapons/v_smoke_us.mdl"
+	"playermodel"			"models/weapons/p_smoke_us.mdl"
+
+	//Player Animation
+	"anim_prefix"			"gren"
+
+	"clip_size"			"-1"
+	"default_clip"			"1"
+	
+	"item_flags"			"0"
+	"ITEM_FLAG_EXHAUSTIBLE"		"1"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"415"
+			"y"		"574"
+			"width"		"170"
+			"height"	"112"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"415"
+			"y"		"574"
+			"width"		"170"
+			"height"	"112"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"6""y"		"320""width"		"39""height"	"74"
+		}
+	}
+}

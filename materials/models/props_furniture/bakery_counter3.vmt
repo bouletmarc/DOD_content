@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_furniture/bakery_counter3"
+//        "$bumpmap"    "models\props_furniture/bakery_counter3_normal"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_furniture/bakery_counter3_ref"   
+ 		"vertexlitgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.5 .5 .5]"
+ 		}
+}

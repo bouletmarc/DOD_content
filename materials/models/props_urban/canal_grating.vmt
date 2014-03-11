@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_urban/canal_grating"
+	"$envmap" "env_cubemap"
+     	"$basealphaenvmapmask" 1
+}

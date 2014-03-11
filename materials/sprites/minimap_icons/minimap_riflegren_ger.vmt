@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites\minimap_icons\minimap_riflegren_ger"
+	"$translucent" "1"
+	"$vertexalpha" "1"
+	"$ignorez"     "1"
+	"$no_fullbright" "1"
+}

@@ -1,0 +1,94 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"2"
+	"MuzzleFlashScale"		"0.3"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"-2 -1.2 -.3"
+	"vm_prone_offset"		"-3.5 -3 .2"
+	"vm_ironsight_offset"		"-10 -4 1.25"	//"-13.2 -5.17 1.25"
+	"default_team"			"Allies"
+
+	// Weapon characteristics:
+	"Damage"			"120"
+	"Accuracy"			"0.06"
+	"SecondaryAccuracy"		"0.0"
+	"AccuracyMovePenalty"		"0.1"
+	"Recoil"			"5.6"
+	"Penetration"			"1.0"
+	"FireDelay"			"1.85"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"	
+	"BulletsPerShot"		"1"
+	"WeaponType"			"Sniper"
+	"clip_size"			"5"
+	"primary_ammo"			"DOD_AMMO_SPRING"
+	"secondary_ammo"		"None"
+	"weight"			"20"
+	"item_flags"			"0"
+	"printname"			"#Weapon_Spring"	
+	"bucket"			"0"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"11"
+
+	"Tracer"			"0"
+
+	"HudClipHeight"			"55"
+	"HudClipBaseHeight"		"0"
+	"HudClipBulletHeight"		"11"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_springfield.mdl"
+	"playermodel"			"models/weapons/w_spring.mdl"
+
+	//Player Animation
+	"anim_prefix"			"bolt"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+  		"single_shot"           "Weapon_Springfield.Shoot"
+  		"reload"                "Weapon_Springfield.WorldReload"
+  		"single_shot_reload"	"Weapon_Springfield.SingleShotReload"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"286"
+			"width"		"409"
+			"height"	"101"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"0"
+			"y"		"286"
+			"width"		"409"
+			"height"	"101"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"101""y"		"118""width"		"64""height"	"56"
+		}
+
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"103""y"		"174""width"		"64""height"	"56"
+		}
+
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"110""y"		"1""width"		"33""height"	"29"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+     "$basetexture" "models\props_furniture\furniture_couch01a"
+     "$surfaceprop" "dirt"
+
+
+
+}

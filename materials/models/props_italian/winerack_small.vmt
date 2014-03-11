@@ -1,0 +1,7 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_italian/winerack_small"
+	"$model" 1
+	"$surfaceprop" "wood"
+//	"$bumpmap" "models/cs_italy/winerack_small_normal"
+}

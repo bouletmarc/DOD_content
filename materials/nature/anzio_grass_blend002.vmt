@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/cobblegrass001"
+	"$baseTexture2" "nature/anzio_grass002"
+	"%detailtype" "anzio_grass_dense"
+	"$surfaceprop" "dirt"
+	"%keywords" "dod" 
+}

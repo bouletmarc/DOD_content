@@ -1,0 +1,6 @@
+"SpriteCard"
+{
+	"$basetexture" "demo/sheet0"
+	"$additive" 1
+	"$translucent" 1
+}

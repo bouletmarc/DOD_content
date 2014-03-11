@@ -1,0 +1,90 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"0"
+	"MuzzleFlashScale"		"0.3"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"1 1.5 1"
+	"vm_prone_offset" 		"-3.5 -2 2.2"
+	"default_team"			"Allies"
+
+
+
+	// Weapon characteristics:
+	"Damage"			"40"
+	"Accuracy"			"0.055"
+	"AccuracyMovePenalty"		"0.1"
+	"Recoil"			"1.4"
+	"Penetration"			"1"
+	"FireDelay"			"0.1"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"
+	"CanDrop"			"0"	
+	"BulletsPerShot"		"1"
+	"WeaponType"			"Pistol"
+	"clip_size"			"7"
+	"primary_ammo"			"DOD_AMMO_COLT"
+	"secondary_ammo"		"None"
+	"weight"			"10"
+	"item_flags"			"0"
+	"printname"			"#Weapon_Colt"	
+	"bucket"			"1"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"3"
+
+	"HudClipHeight"			"121"
+	"HudClipBaseHeight"		"6"
+	"HudClipBulletHeight"		"17"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_colt.mdl"
+	"playermodel"			"models/weapons/w_colt.mdl"
+
+	//Player Animation
+	"anim_prefix"			"pistol"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Colt.Shoot"
+		"reload"		"Weapon_Colt.WorldReload"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"380"
+			"y"		"0"
+			"width"		"185"
+			"height"	"125"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"380"
+			"y"		"0"
+			"width"		"185"
+			"height"	"125"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"319""y"		"391""width"		"69""height"	"121"
+		}
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"243""y"		"391""width"		"69""height"	"121"
+		}
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"243""y"		"391""width"		"69""height"	"121"
+		}
+	}
+}

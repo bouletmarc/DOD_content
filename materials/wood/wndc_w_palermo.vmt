@@ -1,0 +1,5 @@
+"lightmappedgeneric" {
+    "$basetexture" "wood\wndc_w_palermo"
+    "%keywords" "dod"
+    "$surfaceprop" "wood"
+}

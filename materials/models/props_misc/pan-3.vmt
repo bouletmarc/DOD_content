@@ -1,0 +1,8 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_misc/pan-3"
+	"$envmapmask" "models\props_misc\pan-3_envmask"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" "[.2 .2 .2]"
+	"$envmapcontrast" .7
+}

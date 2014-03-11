@@ -1,0 +1,7 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_misc/pot-2"
+	"$envmap" "env_cubemap"
+	"$envmaptint" .25 .25 .25
+	"$basealphaenvmapmask" 1
+}

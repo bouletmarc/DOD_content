@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "ground/skybox_ground01"
+	"$surfaceprop" "grass"
+	"%keywords" "dod"
+}

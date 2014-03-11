@@ -1,0 +1,20 @@
+"UnlitTwoTexture"
+{
+	// Original shader: AddTexture
+	"$basetexture" "effects/sun_sheet1"
+	"$texture2" "effects/sun_sheet2"
+	"$additive" 1
+	"$nofog" "1"
+//	"$vertexcolor" 1
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 0.025
+			"texturescrollangle" 20
+		}
+	}
+
+}

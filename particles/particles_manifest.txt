@@ -1,0 +1,10 @@
+particles_manifest
+{
+	"file"		"particles/error.pcf"
+	"file"		"particles/fire_01.pcf"
+	"file"		"particles/burning_fx.pcf"
+	"file"		"particles/explosions.pcf"
+	"file"		"particles/muzzleflashes.pcf"
+	"file"		"particles/rockettrail.pcf"
+	"file"		"particles/achievement.pcf"
+}

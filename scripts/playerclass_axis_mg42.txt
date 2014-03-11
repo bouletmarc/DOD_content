@@ -1,0 +1,29 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_axis_mg42"	
+	"playermodel"		"models/player/german_mg.mdl"
+	"selectcmd"			"cls_mg42"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"AXIS"
+
+	// Weapon Info
+	"primaryweapon"		"mg42"
+	"secondaryweapon"	"p38"
+	"meleeweapon"		"spade"
+
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_mg"
+	"mergemgclass"		"1"
+	
+	"healthimage"		"cls_ger_mg42_active"
+	"healthimagebg"		"cls_ger_mg42_active_bg"
+}

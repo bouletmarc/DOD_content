@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "Decals/WallStain_Frame01a"
+	"$decal" 1
+	"$decalscale" .75
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

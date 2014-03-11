@@ -1,0 +1,13 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "wood/woodstair02"
+	"$surfaceprop" "wood"
+ 	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$envmapmask" "wood/woodstair02_spec"
+	"%keywords" "dod" 
+ 		"lightmappedgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.33 .33 .33]"
+ 		}
+}

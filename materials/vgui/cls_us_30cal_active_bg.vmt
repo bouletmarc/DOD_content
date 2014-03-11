@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "vgui/cls_us_30cal_active_bg"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+}
+

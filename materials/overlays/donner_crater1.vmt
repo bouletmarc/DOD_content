@@ -1,0 +1,9 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "overlays/donner_crater1"
+	"$translucent" 1
+	"$decal" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "dod"
+}

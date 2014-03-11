@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "stone/stonefloor002"
+	"$basetexture2" "nature/gravelfloor004a"
+	"%tooltexture" "stone/Stonefloor002"
+	"%detailtype" "avalanche_grass02"
+}

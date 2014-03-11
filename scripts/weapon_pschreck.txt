@@ -1,0 +1,77 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"4"
+	"ViewModelFOV"			"45"
+	"default_team"			"Axis"
+
+	// Weapon characteristics:
+	"Damage"			"100"
+	"Recoil"			"10.0"
+	"FireDelay"			"1.0"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"
+	"WeaponType"			"Bazooka"
+	"clip_size"			"1"
+	"primary_ammo"			"DOD_AMMO_ROCKET"
+	"secondary_ammo"		"None"
+	"weight"			"20"
+	"item_flags"			"0"
+	"printname"			"#Weapon_Pschreck"	
+	"bucket"			"0"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"5"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_panzerschreck.mdl"
+	"playermodel"			"models/weapons/w_pschreck.mdl"
+
+	//Player Animation
+	"anim_prefix"			"bazooka"
+	"reload_anim_prefix"		"pschreck"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"weapons/_shoot.wav"
+		"reload"		"Weapon_Panzerschreck.WorldReload"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"618"
+			"y"		"835"
+			"width"		"406"
+			"height"	"124"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"618"
+			"y"		"835"
+			"width"		"406"
+			"height"	"124"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"244""y"		"147""width"		"211""height"	"41"
+		}
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"4""y"		"73""width"		"211""height"	"41"
+		}
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"137""y"		"314""width"		"28""height"	"198"
+		}
+	}
+}

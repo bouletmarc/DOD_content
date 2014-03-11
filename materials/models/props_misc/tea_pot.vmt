@@ -1,0 +1,12 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_misc/tea_pot"
+	"$envmapmask" "models\props_misc\tea_pot_envmask"
+	"$envmap" "env_cubemap"
+//	"$envmapsaturation" "[.2 .2 .2]"
+	"$envmapcontrast" .7
+ 		"vertexlitgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.5 .5 .5]"
+ 		}
+}

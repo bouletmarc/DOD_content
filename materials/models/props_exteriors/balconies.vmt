@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_exteriors/balconies"
+	"$alphatest" 1
+	"$nocull" 1
+}

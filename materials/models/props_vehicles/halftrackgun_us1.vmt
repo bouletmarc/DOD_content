@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_vehicles/halftrackgun_us1"
+	"$bumpmap" "models/props_vehicles/halftrackgun_us1_normal"
+	//"$translucent"	1
+	//"$alpha"	1
+	//"$alphatest"	1			
+
+
+
+}

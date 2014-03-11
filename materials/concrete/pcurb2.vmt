@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "concrete/pcurb2"
+	"$bumpmap" "concrete/pcurb2_normal"
+	"%keywords" "dod"
+	"$surfaceprop" "concrete"
+}

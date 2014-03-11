@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "rubble/donner_rubble1"
+	"$basetexture2" "nature/cobblegrass001"
+	"%tooltexture" "rubble/donner_rubble1"
+	"%detailtype" "avalanche_grass01"
+}

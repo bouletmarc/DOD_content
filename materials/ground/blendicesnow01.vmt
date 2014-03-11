@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" 	"ground/ice01"
+	"$basetexture2" "ground/snow01"
+	"$surfaceprop" "ice"
+	"%keywords" "coastline"
+	"$bumpmap" "ground/ice01_normal"
+	"$bumpmap2" "ground/snow01_normal"
+	"$normalmapalphaenvmapmask" 1
+// 	"$lightwarptexture" "ground\snow_warp"	 ***this is busted***
+	"$envmaptint" "[ .7 .7 .7]"
+	"$envmap" "env_cubemap"
+	"$nodecal" "1"
+}

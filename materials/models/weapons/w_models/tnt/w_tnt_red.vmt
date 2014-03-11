@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_models\tnt\w_tnt_red"
+	"$additive" 1
+//	"$model" 1
+	"$nocull" "1"
+
+	"Proxies"	
+	{	
+		"Sine"
+		{
+			"sineperiod" "1.5"
+			"sinemin"	"0.5"
+			"sinemax"	"1"
+			"resultVar" "$alpha"
+		}
+	}
+}

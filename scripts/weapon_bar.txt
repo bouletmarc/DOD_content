@@ -1,0 +1,94 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"1"
+	"MuzzleFlashScale"		"0.5"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"3 -2 3.5"
+	"vm_prone_offset" 		"0 -4.5 4"
+	"vm_ironsight_offset"		"-2.5 -4.5 5"
+	"default_team"			"Allies"
+
+	// Weapon characteristics:
+	"Damage"			"50"
+	"Accuracy"			"0.025"
+	"SecondaryAccuracy"		"0.02"
+	"AccuracyMovePenalty"	"0.1"
+	"Recoil"			"5.0"
+	"Penetration"			"1.0"
+	"FireDelay"			"0.12"
+	"SecondaryFireDelay"    "0.3"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"	
+	"BulletsPerShot"		"1"
+	"WeaponType"			"SubMG"
+	"clip_size"			"20"
+	"primary_ammo"			"DOD_AMMO_BAR"
+	"secondary_ammo"		"None"
+	"weight"			"20"
+	"item_flags"			"0"
+	"printname"			"#Weapon_bar"	
+	"bucket"			"0"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"13"
+
+	"Tracer"			"2"
+
+	"HudClipHeight"			"113"
+	"HudClipBaseHeight"		"12"
+	"HudClipBulletHeight"		"5"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_bar.mdl"
+	"playermodel"			"models/weapons/w_bar.mdl"
+
+	//Player Animation
+	"anim_prefix"			"rifle"
+	"reload_anim_prefix"		"bar"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Bar.Shoot"
+		"reload"		"Weapon_Bar.WorldReload"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"119"
+			"width"		"374"
+			"height"	"74"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"0"
+			"y"		"119"
+			"width"		"374"
+			"height"	"74"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"451""y"		"391""width"		"61""height"	"113"
+		}
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"390""y"		"391""width"		"61""height"	"113"
+		}
+
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"390""y"		"391""width"		"61""height"	"113"
+		}
+	}
+}

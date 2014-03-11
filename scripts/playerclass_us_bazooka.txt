@@ -1,0 +1,28 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_allied_bazooka"
+	"playermodel"		"models/player/american_rocket.mdl"
+	"selectcmd"			"cls_bazooka"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"ALLIES"
+
+	// Weapon Info
+	"primaryweapon"		"bazooka"
+	"secondaryweapon"	"m1carbine"
+	"meleeweapon"		"amerknife"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_rocket"
+	
+	"healthimage"		"cls_us_bazooka_active"
+	"healthimagebg"		"cls_us_bazooka_active_bg"
+}

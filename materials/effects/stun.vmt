@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+   "$basetexture" "_rt_FullFrameFB"
+
+	"UnlitGeneric_DX6"
+	{
+	   "$additive"	1
+	   "$basetexture" "vgui\white"
+	}
+
+	"UnlitGeneric_DX7"
+	{
+	   "$additive"	1
+	   "$basetexture" "vgui\white"
+	}
+}
+

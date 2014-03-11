@@ -1,0 +1,29 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_allied_heavy"
+	"playermodel"		"models/player/american_support.mdl"
+	"selectcmd"			"cls_bar"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"ALLIES"
+
+	// Weapon Info
+	"primaryweapon"		"bar"
+	"meleeweapon"		"amerknife"
+	"grenadetype"		"frag_us"
+	"numgrens"			"2"
+
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_support"
+
+	"healthimage"		"cls_us_bar_active"
+	"healthimagebg"		"cls_us_bar_active_bg"
+}

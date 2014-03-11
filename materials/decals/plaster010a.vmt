@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/Plaster010a"
+	"$decal" 1
+	"$decalscale" .25
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

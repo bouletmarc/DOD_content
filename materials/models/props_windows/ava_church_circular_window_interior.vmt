@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+// Original shader: VertexLitSelfIlluminatedTexture
+	"$baseTexture" "models\props_windows/ava_church_circular_window_interior"
+	"$halflambert" 1
+	"$selfillum" 1
+}

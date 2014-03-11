@@ -1,0 +1,10 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "stone/castle01d"
+	"$surfaceprop" "rock"
+//	"$bumpmap" "stone/castle01d_normal"
+//	"$envmap" "env_cubemap"
+//	"$envmapcontrast" "1"
+//	"$normalmapalphaenvmapmask" "1"
+	"%keywords" "dod"
+}

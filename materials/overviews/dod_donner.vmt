@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "overviews/dod_donner"
+	"$vertexalpha" "1"
+	"$no_fullbright" "1"
+	"$ignorez" "1"
+}

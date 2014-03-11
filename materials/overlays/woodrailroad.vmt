@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "overlays/woodrailroad"
+	"$translucent" 1
+	"$decal" 1
+	"$surfaceprop" "wood"
+	"%keywords" "dod"
+}

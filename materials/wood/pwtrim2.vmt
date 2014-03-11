@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "wood/pwtrim2"
+	"$surfaceprop" "wood"
+	"%keywords" "dod"
+	"$bumpmap" "wood/pwtrim2_normal"
+}

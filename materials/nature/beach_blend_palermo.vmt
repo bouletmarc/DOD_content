@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "ground/pi_ground"
+	"$basetexture2" "nature/sandfloor007b"
+	"$surfaceprop" "antlionsand"
+	"%detailtype" "argentan_grass_med"
+}

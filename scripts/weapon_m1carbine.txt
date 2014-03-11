@@ -1,0 +1,96 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"0"
+	"MuzzleFlashScale"		"0.3"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"-3.5 -2.5 1"
+	"vm_prone_offset" 		"-6 -5 1.5"
+	"default_team"			"Allies"
+
+
+
+	// Weapon characteristics:
+	"Damage"			"40"
+	"Accuracy"			"0.019"
+	"AccuracyMovePenalty"		"0.1"
+	"Recoil"			"1.4"
+	"Penetration"			"1.0"
+	"FireDelay"			"0.1"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"	
+	"BulletsPerShot"		"1"
+	"WeaponType"			"Sidearm"
+	"CanDrop"			"0"	
+	"clip_size"			"15"
+	"primary_ammo"			"DOD_AMMO_M1CARBINE"
+	"secondary_ammo"		"None"
+	"weight"			"10"
+	"item_flags"			"0"
+	"printname"			"#Weapon_m1carbine"	
+	"bucket"			"1"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"3"
+
+	"Tracer"			"0"
+
+	"HudClipHeight"			"136"
+	"HudClipBaseHeight"		"0"
+	"HudClipBulletHeight"		"9"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_m1carbine.mdl"
+	"playermodel"			"models/weapons/w_m1carb.mdl"
+
+	//Player Animation
+	"anim_prefix"			"rifle"
+	"reload_anim_prefix"		"m1carb"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Carbine.Shoot"
+		"reload"		"Weapon_Carbine.WorldReload"
+
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"396"
+			"width"		"391"
+			"height"	"95"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"0"
+			"y"		"396"
+			"width"		"391"
+			"height"	"95"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"363""y"		"8""width"		"60""height"	"136"
+		}
+
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"303""y"		"8""width"		"60""height"	"136"
+		}
+
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"303""y"		"8""width"		"60""height"	"136"
+		}
+	}
+}

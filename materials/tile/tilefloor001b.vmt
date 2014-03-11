@@ -1,0 +1,17 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "Tile/tilefloor001b"
+	"$surfaceprop" "tile"
+	"%keywords" "c17skyscraper"
+	"$bumpmap" "tile/tilefloor001b_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .80 .80 .80 ]"
+	"$fresnelreflection" 0.25
+ 		"lightmappedgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.1 .1 .1]"
+ 		}
+
+}

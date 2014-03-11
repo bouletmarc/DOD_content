@@ -1,0 +1,8 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models\props_misc\sewer_entrance-2"
+//	"$bumpmap" "models\props_misc\sewer_entrance-2_normal"
+//	"$envmap" "env_cubemap"
+//	"$envmapsaturation" "[.2 .1 1]"
+//	"$envmapcontrast" .7
+}

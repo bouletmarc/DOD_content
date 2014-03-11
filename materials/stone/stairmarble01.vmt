@@ -1,0 +1,9 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "stone/stairmarble01"
+	"$surfaceprop" "rock"
+ 	//"$envmap" "env_cubemap"
+	//"$envmapcontrast" "1"
+	//"$envmapmask" "stone/stairmarble01_spec"
+	"%keywords" "dod"
+}

@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	"$basetexture"	"ground\snow01"
+	"$surfaceprop" "snow"
+ 	"$lightwarptexture" "ground\snow_warp"	
+	"$envmap" "env_cubemap"
+//	"$bumpmap" "ground\snowsparkle_normal"
+//	"$normalmapalphaenvmapmask" 1	
+//	"$envmapcontrast" "1"
+	"$envmapmask" "ground\snow01_mask"
+	"$envmapsaturation" "[.6 .6 .6]"
+//	"$envmaptint" "[2 2 2]"
+	"$nodecal"	"1"
+
+}

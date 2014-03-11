@@ -1,0 +1,28 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_allied_sniper"
+	"playermodel"		"models/player/american_sniper.mdl"
+	"selectcmd"			"cls_spring"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"ALLIES"
+
+	// Weapon Info
+	"primaryweapon"		"spring"
+	"secondaryweapon"	"colt"
+	"meleeweapon"		"amerknife"
+
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_sniper"
+	
+	"healthimage"		"cls_us_spring_active"
+	"healthimagebg"		"cls_us_spring_active_bg"
+}

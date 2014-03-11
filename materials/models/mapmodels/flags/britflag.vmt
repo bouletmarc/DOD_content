@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"MODELS\MAPMODELS\FLAGS\britflag"
+	"$nocull" "1"
+}

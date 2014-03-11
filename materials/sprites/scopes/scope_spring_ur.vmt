@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$basetexture" "sprites\scopes/scope_spring_ur"
+	"$ignorez"	"1"
+	"$translucent"	"1"
+}

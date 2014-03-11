@@ -1,0 +1,28 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_axis_pschreck"
+	"playermodel"		"models/player/german_rocket.mdl"
+	"selectcmd"			"cls_pschreck"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"AXIS"
+
+	// Weapon Info
+	"primaryweapon"		"pschreck"
+	"secondaryweapon"	"c96"
+	"meleeweapon"		"spade"
+
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_rocket"
+	
+	"healthimage"		"cls_ger_pschreck_active"
+	"healthimagebg"		"cls_ger_pschreck_active_bg"
+}

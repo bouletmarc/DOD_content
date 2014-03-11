@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "metal/irongate01"
+	"$translucent" 1
+	"%keywords" "dod"
+	"$surfaceprop" "metal"
+}

@@ -1,0 +1,28 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_allied_mg"
+	"playermodel"		"models/player/american_mg.mdl"
+	"selectcmd"			"cls_30cal"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"ALLIES"
+
+	// Weapon Info
+	"primaryweapon"		"30cal"
+	"secondaryweapon"	"colt"
+	"meleeweapon"		"amerknife"
+
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_mg"
+	
+	"healthimage"		"cls_us_30cal_active"
+	"healthimagebg"		"cls_us_30cal_active_bg"
+}

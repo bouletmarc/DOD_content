@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_doors/doorframe_05a"
+	//"$envmap" "env_cubemap"
+	//"$envmapmask" "models\props_doors/doorframe_05a_spec"
+}
+
+

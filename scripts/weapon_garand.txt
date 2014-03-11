@@ -1,0 +1,96 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"2"
+	"MuzzleFlashScale"		"0.4"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"2 -3.3 3.5"
+	"vm_prone_offset" 		"-1.5 -5.7 4.5"
+	"vm_ironsight_offset"		"6 -6.95 5.08"
+	"default_team"			"Allies"
+
+
+	// Weapon characteristics:
+	"Damage"			"80"
+	"Accuracy"			"0.014"
+	"SecondaryAccuracy"	"0.0"
+	"AccuracyMovePenalty"		"0.1"
+	"Recoil"			"4.0"
+	"Penetration"			"1.0"
+	"FireDelay"			"0.37"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"	
+	"BulletsPerShot"		"1"
+	"WeaponType"			"Rifle"
+	"clip_size"			"8"
+	"primary_ammo"			"DOD_AMMO_GARAND"
+	"secondary_ammo"		"None"
+	"weight"			"20"
+	"item_flags"			"0"
+	"printname"			"#Weapon_Garand"	
+	"bucket"			"0"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"11"
+
+	"Tracer"			"0"
+
+	"HudClipHeight"			"58"
+	"HudClipBaseHeight"		"1"
+	"HudClipBulletHeight"		"7"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_garand.mdl"
+	"playermodel"			"models/weapons/w_garand.mdl"
+
+	//Player Animation
+	"anim_prefix"			"rifle"
+	"reload_anim_prefix"		"garand"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Garand.Shoot"
+		"special1"		"Weapon_Garand.ClipDing"
+		"reload"		"Weapon_Garand.WorldReload"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"189"
+			"width"		"375"
+			"height"	"80"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"0"
+			"y"		"189"
+			"width"		"375"
+			"height"	"80"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"0""y"		"116""width"		"99""height"	"58"
+		}
+
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"0""y"		"175""width"		"99""height"	"58"
+		}
+
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"18""y"		"2""width"		"48""height"	"30"
+		}
+	}
+}

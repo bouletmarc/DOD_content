@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/camonetting01"
+	"$alphatest" 1
+	"$surfaceprop" "plaster"
+	"%keywords" "dod"
+	"%compilepassbullets" 1
+}

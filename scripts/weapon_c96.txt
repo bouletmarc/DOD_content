@@ -1,0 +1,90 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"0"
+	"MuzzleFlashScale"		"0.3"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"-.5 -1 1.2"
+	"vm_prone_offset" 		"-4 -3.5 1.9"
+	"default_team"			"Axis"
+
+	// Weapon characteristics:
+	"Damage"				"40"
+	"Accuracy"				"0.065"	
+	"AccuracyMovePenalty"	"0.1"
+	"FireDelay"				"0.065"	
+	"Recoil"				"3.0"
+	"Penetration"			"1.0"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"	
+	"CanDrop"			"0"	
+	"BulletsPerShot"		"1"
+	"WeaponType"			"Pistol"
+	"clip_size"				"20"
+	"primary_ammo"			"DOD_AMMO_C96"
+	"secondary_ammo"		"None"
+	"weight"				"10"
+	"item_flags"			"0"
+	"printname"				"#Weapon_C96"	
+	"bucket"				"1"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"3"
+
+	"HudClipHeight"			"141"
+	"HudClipBaseHeight"		"0"
+	"HudClipBulletHeight"		"7"
+
+	//Weapon Model
+	"viewmodel"				"models/weapons/v_c96.mdl"
+	"playermodel"			"models/weapons/w_c96.mdl"
+	
+	//Player Animation
+	"anim_prefix"			"pistol"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_C96.Shoot"
+		"reload"		"Weapon_c96.WorldReload"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"697"
+			"y"		"337"
+			"width"		"327"
+			"height"	"100"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"697"
+			"y"		"337"
+			"width"		"327"
+			"height"	"100"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"468""y"		"3""width"		"44""height"	"141"
+		}
+
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"424""y"		"3""width"		"44""height"	"141"
+		}
+
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"424""y"		"3""width"		"44""height"	"141"
+		}
+	}
+}

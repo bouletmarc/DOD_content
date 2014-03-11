@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_furniture/bookcase_small"
+	"$surfaceprop" "wood"
+	
+}

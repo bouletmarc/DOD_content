@@ -1,0 +1,16 @@
+ "WorldVertexTransition"
+
+{
+	"$basetexture" "stone/stonefloor003b"
+	"$basetexture2" "stone/cobble08b"
+	"$bumpmap" "stone/stonefloor003b_normal"
+	"$bumpmap2" "Nature/mudfloor010a_normal"
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "dirt"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" 1
+	"$envmapcontrast" 1
+	"$envmaptint" "[ .6 .6 .6 ]"
+	"$normalmapalphaenvmapmask" 1
+	"%keywords" "dod"
+}

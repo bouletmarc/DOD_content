@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_models\tnt/w_tnt_grey"
+	"$selfillum" 1
+	"$additive" 1
+	"$nocull" "1"
+}

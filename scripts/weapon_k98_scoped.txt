@@ -1,0 +1,95 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"2"
+	"MuzzleFlashScale"		"0.4"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"-4.3 -1.3 1.2"
+	"vm_prone_offset"		"-6 -3.1 2"
+	"vm_ironsight_offset"	"-11 -3.5 2.5"
+	"default_team"			"Axis"
+
+	// Weapon characteristics:
+	"Damage"			"120"
+	"Accuracy"			"0.06"
+	"SecondaryAccuracy"		"0.0"
+	"AccuracyMovePenalty"		"0.1"
+	"Recoil"			"6.0"
+	"Penetration"			"1.0"
+	"FireDelay"			"1.6"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"	
+	"BulletsPerShot"		"1"
+	"WeaponType"			"Sniper"
+	"clip_size"			"5"
+	"primary_ammo"			"DOD_AMMO_K98"
+	"secondary_ammo"		"None"
+	"weight"			"20"
+	"item_flags"			"0"
+	"printname"			"#Weapon_K98_Scoped"	
+	"bucket"			"0"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"13"
+
+	"Tracer"			"0"
+
+	"HudClipHeight"			"55"
+	"HudClipBaseHeight"		"0"
+	"HudClipBulletHeight"		"11"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_k98_scoped.mdl"
+	"playermodel"			"models/weapons/w_k98s.mdl"
+
+	//Player Animation
+	"anim_prefix"			"bolt"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_KarScoped.Shoot"
+		"reload"		"Weapon_K98.WorldReload"
+		"single_shot_reload"	"Weapon_K98.SingleShotReload"
+
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"644"
+			"y"		"547"
+			"width"		"380"
+			"height"	"95"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"644"
+			"y"		"547"
+			"width"		"380"
+			"height"	"95"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"101""y"		"118""width"		"64""height"	"56"
+		}
+
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"103""y"		"174""width"		"64""height"	"56"
+		}
+
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"110""y"		"1""width"		"33""height"	"29"
+		}
+	}
+}

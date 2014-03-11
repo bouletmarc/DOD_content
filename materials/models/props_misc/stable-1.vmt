@@ -1,0 +1,8 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_misc/stable-1"
+//	"$envmapmask" "models\props_misc\stable-1_envmask"
+//	"$envmap" "env_cubemap"
+//	"$envmapsaturation" "[.2 .1 1]"
+//	"$envmapcontrast" .7
+}

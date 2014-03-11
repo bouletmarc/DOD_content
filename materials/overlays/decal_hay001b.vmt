@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "overlays/decal_hay001b"
+	"$translucent" 1
+	"$decal" 1
+	"$surfaceprop" "dirt"
+	"%keywords" "dod"
+}

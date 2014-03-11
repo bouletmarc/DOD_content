@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/rockwall011d"
+	"$basetexture2" "nature/cobblegrass001"
+	"$bumpmap" "nature/rockwall011d_normal"
+	"%tooltexture" "nature/blendcliffgrass001a_tooltexture"
+	"%keywords" "dod"
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "decals/chip003"
+	"$translucent" 1
+	"$decal" 1
+	"$decalscale" 1
+	"$surfaceprop" "plaster"
+	"%keywords" "dod"
+}

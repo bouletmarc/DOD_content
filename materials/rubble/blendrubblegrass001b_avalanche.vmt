@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/cobblegrass001"
+	"$baseTexture2" "nature/gravelfloor004a"
+	"%tooltexture" "nature/cobblegrass001"
+	"%detailtype" "flash_grass01"
+}

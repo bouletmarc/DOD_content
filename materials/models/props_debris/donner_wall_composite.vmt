@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_debris/donner_wall_composite"
+        "$bumpmap"     "models\props_debris/donner_wall_composite_normal"
+
+
+
+}

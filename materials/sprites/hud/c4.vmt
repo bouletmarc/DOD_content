@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites\hud\c4"
+	"$translucent"	"1"
+	"$ignorez"	"1"
+}

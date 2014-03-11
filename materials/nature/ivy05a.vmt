@@ -1,0 +1,12 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "nature/ivy05a"
+	"$translucent" 1
+	"$surfaceprop" "paper"
+	"%keywords" "dod"
+
+//	"LightmappedGeneric_DX9"
+//	{
+//		"$bumpmap" "cs_italy/ivy05a_normal"
+//	}
+}

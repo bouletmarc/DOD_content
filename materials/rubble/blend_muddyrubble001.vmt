@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "rubble/muddy_rubble01"
+	"$basetexture2" "rubble/muddy_rubble02"
+	"$surfaceprop" "dirt"
+	"$keywords" "dod"
+}

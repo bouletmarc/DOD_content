@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "stone/stonefloor003a"
+	"$bumpmap" "stone/stonefloor003a_normal"
+	"%keywords" "dod"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" 1
+	"$envmapcontrast" 1
+	"$envmaptint" "[ .6 .6 .6 ]"
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "concrete"
+}

@@ -1,0 +1,29 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_axis_mp44"	
+	"playermodel"		"models/player/german_support.mdl"
+	"selectcmd"			"cls_mp44"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"AXIS"
+
+	// Weapon Info
+	"primaryweapon"		"mp44"
+	"meleeweapon"		"spade"
+	"grenadetype"		"frag_ger"
+	"numgrens"			"2"
+
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_support"
+	
+	"healthimage"		"cls_ger_mp44_active"
+	"healthimagebg"		"cls_ger_mp44_active_bg"
+}

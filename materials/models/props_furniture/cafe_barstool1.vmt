@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_furniture/cafe_barstool1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props_furniture/cafe_barstool1_spec"
+ 		"vertexlitgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.33 .33 .33]"
+ 		}
+
+}
+
+

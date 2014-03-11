@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_vehicles/generator_light"
+	"$selfillum" 1 
+}

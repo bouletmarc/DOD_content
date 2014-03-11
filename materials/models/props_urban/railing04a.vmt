@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_urban/Railing04a"
+	"$compilepassbullets" 1
+}

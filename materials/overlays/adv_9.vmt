@@ -1,0 +1,11 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "overlays/adv_9"
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$decal" 1
+	"$surfaceprop" "brick"
+	"%keywords" "dod"
+	"srgb?$alpha2" "1.3"
+}

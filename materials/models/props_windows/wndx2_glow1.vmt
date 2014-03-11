@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_windows/wndx2_glow1"
+	"$selfillum" 1
+	"$surfaceprop" "wood"
+}

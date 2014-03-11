@@ -1,0 +1,91 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"0"
+	"MuzzleFlashScale"		"0.3"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"-.5 -1 1.2"
+	"vm_prone_offset" 		"-4 -3.5 1.9"
+	"default_team"			"Axis"
+
+
+	// Weapon characteristics:
+	"Damage"			"40"
+	"Accuracy"			"0.055"
+	"AccuracyMovePenalty"		"0.1"
+	"Recoil"			"1.4"
+	"Penetration"			"1.0"
+	"FireDelay"			"0.1"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"
+	"CanDrop"			"0"	
+	"BulletsPerShot"		"1"
+	"WeaponType"			"Pistol"
+	"clip_size"			"8"
+	"primary_ammo"			"DOD_AMMO_P38"
+	"secondary_ammo"		"None"
+	"weight"			"10"
+	"item_flags"			"0"
+	"printname"			"#Weapon_p38"	
+	"bucket"			"1"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"3"
+
+	"HudClipHeight"			"137"
+	"HudClipBaseHeight"		"6"
+	"HudClipBulletHeight"		"17"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_p38.mdl"
+	"playermodel"			"models/weapons/w_p38.mdl"
+
+	//Player Animation
+	"anim_prefix"			"pistol"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Luger.Shoot"
+		"reload"		"Weapon_Luger.WorldReload"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"833"
+			"y"		"101"
+			"width"		"191"
+			"height"	"121"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"833"
+			"y"		"101"
+			"width"		"191"
+			"height"	"121"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"319""y"		"375""width"		"68""height"	"137"
+		}
+
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"175""y"		"375""width"		"68""height"	"137"
+		}
+
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"175""y"		"375""width"		"68""height"	"137"
+		}
+	}
+}

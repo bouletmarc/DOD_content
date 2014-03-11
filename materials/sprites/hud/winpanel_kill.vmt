@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites\hud\winpanel_kill"
+	"$translucent"	"1"
+	"$ignorez"	"1"
+}

@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/cobblegrass001"
+	"$basetexture2" "nature/cobblegrass001"
+	"%detailtype" "skybox_grass01"
+	"%keywords" "dod"
+	"$surfaceprop" "dirt"
+}

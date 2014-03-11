@@ -1,0 +1,8 @@
+
+
+"UnlitGeneric"
+{
+	"$basetexture" "Models/props_debris/detail_debris"
+	"$surfaceprop" "concrete"
+	"$model" 1
+}

@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "ground/pi_ground"
+	"$surfaceprop" "dirt"
+	"%keywords" "dod" 
+}

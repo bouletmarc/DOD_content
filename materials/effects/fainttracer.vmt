@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	// Original shader: AddTexture
+	"$basetexture" "effects/fainttracer"
+	"$brightness" "effects/fainttracer_brightness"
+	"$additive" 1
+	"$vertexcolor" 1
+}

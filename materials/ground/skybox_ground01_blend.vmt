@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+//	"$basetexture"	"nature/anzio_grass002"
+	"$basetexture"	"ground/skybox_ground01"
+	"$basetexture2"	"ground/skybox_ground01"
+	"%tooltexture"	"ground/skybox_ground01"
+	"%detailtype"	"skybox_grass01"
+	"$surfaceprop"	"grass"
+	"%keywords"	"dod"
+}
+
+

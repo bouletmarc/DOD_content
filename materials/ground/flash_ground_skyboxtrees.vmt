@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "ground/grass001"
+	"$baseTexture2" "ground/dirt001"
+	"$surfaceprop" "dirt"
+	"%detailtype" "skybox_flashtrees01"
+	"%keywords" "dod" 
+}

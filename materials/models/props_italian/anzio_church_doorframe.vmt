@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_italian/anzio_church_doorframe"
+        "$bumpmap" "models\props_italian/anzio_church_doorframe_normal"
+}

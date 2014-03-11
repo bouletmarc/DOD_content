@@ -1,0 +1,13 @@
+
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_furniture/lights_overhead"
+	//"$translucent"			1
+	//"$alphatest"			1
+	"$envmapmask" "models\props_furniture/lights_overhead_spec"
+	"$envmap" "env_cubemap"
+
+
+
+	
+}

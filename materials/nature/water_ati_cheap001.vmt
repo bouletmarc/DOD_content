@@ -1,0 +1,47 @@
+"Water"
+{
+	"%compilewater" 1
+	"$forcecheap" 1
+	"$CHEAPWATERSTARTDISTANCE" 500.0
+	"$CHEAPWATERENDDISTANCE" 1000.0
+//	"$envmap" "env_cubemap"
+	"$envmap" "customcubemaps/sky_lostcoast_hdr"
+	
+	"%tooltexture" "dev/water_normal"
+	"$refractamount" ".1"
+//	"$refracttint" "[0.95 1.0 0.97]"
+
+	"$reflectamount" "1.5"
+	"$reflecttint" "[1 1 1]"
+
+	"$scale" "[1 1]"
+
+	"$bumpmap" "dev/water_dudv"
+	"$normalmap" "dev/water_normal"
+
+	"$surfaceprop" "water"
+	"$bottommaterial" "nature/water_ati_beneath"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{20 42 37}"
+	"$fogstart" 1.00
+	"$fogend" 100.00
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+	}
+}

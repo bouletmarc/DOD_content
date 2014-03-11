@@ -1,0 +1,67 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"0"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"3 1 0"
+	"default_team"			"Allies"
+
+	// Weapon characteristics:
+	"Damage"			"60"
+	"Recoil"			"0"
+	"FireDelay"			"0.1"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"
+	"CanDrop"			"0"	
+	"WeaponType"			"Melee"
+	"primary_ammo"			"None"
+	"secondary_ammo"		"None"
+	"weight"			"5"
+	"item_flags"			"0"
+	"printname"			"#Weapon_AmerKnife"	
+	"bucket"			"2"
+	"bucket_position"		"1"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_amerk.mdl"
+	"playermodel"			"models/weapons/w_amerk.mdl"
+
+	//Player Animation
+	"anim_prefix"			"knife"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"melee_miss"		"Weapon_Knife.Swing"
+		"melee_hit"		"Weapon_Punch.HitPlayer"
+		"special1"		"Weapon_Knife.SlashPlayer"
+		"melee_hit_world"	"Weapon_Punch.HitWorld"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"589"
+			"y"		"0"
+			"width"		"195"
+			"height"	"96"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"589"
+			"y"		"0"
+			"width"		"195"
+			"height"	"96"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"R"
+		}
+	}
+}

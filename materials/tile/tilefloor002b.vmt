@@ -1,0 +1,9 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "tile/tilefloor002b"
+	"$surfaceprop" "tile"
+// 	"$envmap" "env_cubemap"
+//	"$envmapcontrast" "1"
+//	"$envmapmask" "tile/walltrim01_spec"
+	"%keywords" "dod" 
+}

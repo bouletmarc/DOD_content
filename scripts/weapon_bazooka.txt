@@ -1,0 +1,76 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"4"
+	"ViewModelFOV"			"45"
+	"default_team"			"Allies"
+
+	// Weapon characteristics:
+	"Damage"			"100"
+	"Recoil"			"10.0"
+	"FireDelay"			"1.0"
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"
+	"WeaponType"			"Bazooka"
+	"clip_size"			"1"
+	"primary_ammo"			"DOD_AMMO_ROCKET"
+	"secondary_ammo"		"None"
+	"weight"			"20"
+	"item_flags"			"0"
+	"printname"			"#Weapon_Bazooka"	
+	"bucket"			"0"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"5"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_bazooka.mdl"
+	"playermodel"			"models/weapons/w_bazooka.mdl"
+
+	//Player Animation
+	"anim_prefix"			"bazooka"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"weapons/_shoot.wav"
+		"reload"		"Weapon_Bazooka.WorldReload"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"667"
+			"width"		"411"
+			"height"	"87"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"0"
+			"y"		"667"
+			"width"		"411"
+			"height"	"87"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"4""y"		"32""width"		"211""height"	"41"
+		}
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"4""y"		"73""width"		"211""height"	"41"
+		}
+		"autoaim"
+		{	
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"107""y"		"314""width"		"28""height"	"198"
+		}
+	}
+}

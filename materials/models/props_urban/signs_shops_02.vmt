@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_urban/signs_shops_02"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_urban/signs_shops_02_ref"
+}

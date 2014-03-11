@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "wood/roof_broken2"
+	"$translucent" 1
+	"%keywords" "dod"
+	"$surfaceprop" "wood"
+}

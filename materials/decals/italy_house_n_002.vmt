@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$baseTexture" "decals/italy_house_n_002"
+	"$decal" 1
+	"$decalscale" .25
+	"%keywords" "italy"
+}
+

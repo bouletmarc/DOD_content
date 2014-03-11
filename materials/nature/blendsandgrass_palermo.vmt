@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" 	"nature/sandfloor009a"
+	"$basetexture2" "nature/dirtfloor006a"
+	"%tooltexture" "nature/blendsandgrass008a_tooltexture"
+        "%detailtype" "argentan_grass_med"
+	"$surfaceprop" "antlionsand"
+
+	
+
+}

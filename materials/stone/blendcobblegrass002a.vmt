@@ -1,0 +1,18 @@
+ "WorldVertexTransition"
+
+{
+	"$basetexture" "nature/cobblegrass001"
+	"$basetexture2" "stone/cobble08a"	
+	"%detailtype" "flash_grass_med"
+//	"$bumpmap" "nature/mudfloor010a_normal"
+	"$bumpmap" "stone/cobble08b_normal"
+	"$bumpmap2" "stone/cobble08a_normal"
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "wet"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" 1
+	"$envmapcontrast" 1
+	"$envmaptint" "[ 1.1 1.1 1.1 ]"
+	"$normalmapalphaenvmapmask" 1
+	"%keywords" "dod"
+}

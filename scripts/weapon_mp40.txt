@@ -1,0 +1,93 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"0"
+	"MuzzleFlashScale"		"0.3"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"-1 .6 0"
+	"vm_prone_offset" 		"-6 -2 1"
+	"default_team"			"Axis"
+
+	// Weapon characteristics:
+	"Damage"			"40"
+	"Accuracy"			"0.055"
+	"AccuracyMovePenalty"		"0.1"
+	"Recoil"			"2.2"
+	"Penetration"			"1.0"
+	"FireDelay"			"0.09"  
+	"IdleTimeAfterFire"		"5.0"
+	"IdleInterval"			"5.0"	
+	"BulletsPerShot"		"1"
+	"WeaponType"			"SubMG"
+	"clip_size"			"30"
+	"primary_ammo"			"DOD_AMMO_SUBMG"
+	"secondary_ammo"		"None"
+	"weight"			"20"
+	"item_flags"			"0"
+	"printname"			"#Weapon_MP40"	
+	"bucket"			"0"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"7"
+
+	"Tracer"			"2"
+
+	"HudClipHeight"			"184"
+	"HudClipBaseHeight"		"2"
+	"HudClipBulletHeight"		"6"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_mp40.mdl"
+	"playermodel"			"models/weapons/w_mp40.mdl"
+
+	//Player Animation
+	"anim_prefix"			"mp40"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_MP40.Shoot"
+		"reload"			"Weapon_Mp40.WorldReload"
+		"melee_hit"			"Weapon_Punch.HitPlayer"
+		"melee_hit_world"	"Weapon_Punch.HitWorld"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"792"
+			"y"		"0"
+			"width"		"232"
+			"height"	"102"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"792"
+			"y"		"0"
+			"width"		"232"
+			"height"	"102"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"476"			"y"		"193"			"width"		"36"			"height"	"184"
+		}
+
+		"ammo2"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"440"			"y"		"193"			"width"		"36"			"height"	"184"
+		}
+
+		"autoaim"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"440"			"y"		"193"			"width"		"36"			"height"	"184"
+		}
+	}
+}

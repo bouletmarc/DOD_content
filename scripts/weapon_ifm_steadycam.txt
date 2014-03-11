@@ -1,0 +1,87 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashType"		"1"
+	"MuzzleFlashScale"		"0.3"
+	"ViewModelFOV"			"45"
+	"vm_normal_offset" 		"1.5 -.5 0"
+	"vm_prone_offset" 		"2 -1 .5"
+
+
+	// Weapon characteristics:
+	"Damage"			"85"
+	"Accuracy"			"0.2"
+	"SecondaryAccuracy"		"0.02"
+	"AccuracyMovePenalty"		"0.1"
+	"Recoil"			"20"
+	"Penetration"			"1.0"
+	"FireDelay"			"0"
+	"IdleTimeAfterFire"		"0.0"
+	"IdleInterval"			"0.0"	
+	"BulletsPerShot"		"0"
+	"WeaponType"			"Camera"
+	"clip_size"			"-1"
+	"primary_ammo"			"DOD_AMMO_30CAL"
+	"secondary_ammo"		"None"
+	"weight"			"1000"
+	"item_flags"			"0"
+	"printname"			"#Weapon_30cal"	
+	"bucket"			"0"
+	"bucket_position"		"1"
+
+	"DefaultAmmoClips"		"2"
+	"AmmoPickupClips"		"1"
+
+	"Tracer"			"1"
+
+	//Weapon Model
+	"viewmodel"			"models/weapons/v_30cal.mdl"
+	"playermodel"			"models/weapons/w_30cal.mdl"
+
+	"reloadmodel"			"models/weapons/w_30calsr.mdl"
+	"ALTWPN_CRITERIA_RELOADING"	"1"
+
+	"pronedeployedreloadmodel"	"models/weapons/w_30calpr.mdl"
+	"ALTWPN_CRITERIA_PRONE_DEPLOYED_RELOAD"	"1"
+
+	//Player Animation
+	"anim_prefix"			"30cal"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_30cal.Shoot"
+		"reload"    		"Weapon_30cal.WorldReload"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/weapons1"
+			"x"		"0"
+			"y"		"143"
+			"width"		"170"
+			"height"	"48"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clip_extras"
+			"x"		"181"
+			"y"		"40"
+			"width"		"64"
+			"height"	"128"
+		}
+
+		"ammo2"
+		{
+			"file"		"sprites/hud/clip_extras"
+			"x"		"0"
+			"y"		"68"
+			"width"		"81"
+			"height"	"66"
+		}
+	}
+}

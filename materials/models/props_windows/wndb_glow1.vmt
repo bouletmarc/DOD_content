@@ -1,0 +1,5 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_windows/wndb_glow1"
+	"$selfillum" 1
+}

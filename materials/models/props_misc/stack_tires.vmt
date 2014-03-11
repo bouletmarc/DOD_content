@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_misc/stack_tires"
+	//"$bumpmap" "models/props_misc/stack_tires_normal"
+	//"$translucent"	1
+	//"$alpha"	1
+	//"$alphatest"	1			
+
+
+
+}

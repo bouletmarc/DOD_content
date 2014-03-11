@@ -1,0 +1,31 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_axis_mp40"	
+	"playermodel"		"models/player/german_assault.mdl"
+	"selectcmd"			"cls_mp40"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"AXIS"
+
+	// Weapon Info
+	"primaryweapon"		"mp40"
+	"secondaryweapon"	"p38"
+	"grenadetype"		"frag_ger"
+	"numgrens"			"1"
+	"grenadetype2"		"smoke_ger"
+	"numgrens2"			"1"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_assault"
+	
+	"healthimage"		"cls_ger_mp40_active"
+	"healthimagebg"		"cls_ger_mp40_active_bg"
+}

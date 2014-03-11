@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "ground/pi_cobbles"
+	"$surfaceprop" "rock"
+	"$bumpmap" "ground/pi_cobbles_normal"
+	"%keywords" "dod" 
+}

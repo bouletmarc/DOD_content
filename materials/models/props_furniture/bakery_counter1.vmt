@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_furniture/bakery_counter1"
+//	"$bumpmap" "models\props_furniture/bakery_counter1_normal"
+}

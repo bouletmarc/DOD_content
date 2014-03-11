@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture2" "stone/cobble001"
+	"$basetexture" "nature/cobblegrass001"
+	"%detailtype" "flash_grass_med"
+	"%keywords" "dod"
+	"$surfaceprop" "gravel"
+}

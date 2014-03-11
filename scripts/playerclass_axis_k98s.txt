@@ -1,0 +1,28 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_axis_sniper"	
+	"playermodel"		"models/player/german_sniper.mdl"
+	"selectcmd"			"cls_k98s"
+
+	// CDODPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"AXIS"
+
+	// Weapon Info
+	"primaryweapon"		"k98_scoped"
+	"secondaryweapon"	"p38"
+	"meleeweapon"		"spade"
+
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_sniper"
+	
+	"healthimage"		"cls_ger_k98_scoped_active"
+	"healthimagebg"		"cls_ger_k98_scoped_active_bg"
+}

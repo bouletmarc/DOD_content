@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Concrete/concretefloor_koln01"
+	"$surfaceprop" "concrete"
+	"%keywords" "c17downtown"
+	"$bumpmap" "concrete\concretefloor_koln01_normal"
+//     	"$envmap" "env_cubemap"
+// 	"$basealphaenvmapmask" 1 
+//	"$envmapmask" "concrete\concretefloor_koln01_SPEC01"
+}

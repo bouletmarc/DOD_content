@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_urban/donner_wall"
+	"$alphatest"	"1"
+	"$ALPHATESTREFERENCE"	"0.5"
+}
+
+

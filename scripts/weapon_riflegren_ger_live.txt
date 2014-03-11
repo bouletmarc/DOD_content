@@ -1,0 +1,70 @@
+WeaponData
+{
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"MuzzleFlashScale"		"0"
+	"ViewModelFOV"			"45"
+	"default_team"			"Axis"
+
+	// Weapon characteristics:
+	"Damage"			"180"
+	"Recoil"			"0"
+	"FireDelay"			"0"
+	"CanDrop"			"0"
+	"WeaponType"			"Grenade"
+	"clip_size"			"-1"
+	"primary_ammo"			"DOD_AMMO_RIFLEGRENADE_GER_LIVE"
+	"secondary_ammo"		"None"
+	"weight"			"5"
+	"item_flags"			"0"
+	"printname"			"#Weapon_Handgrenade"
+	"bucket"			"3"
+	"bucket_position"		"1"
+	
+	// Weapon model
+	"viewmodel"			"models/weapons/v_k98_rglive.mdl"
+	"playermodel"			"models/weapons/p_k98_rg_grenade.mdl"
+
+	//Player Animation
+	"anim_prefix"			"gren"
+
+	"clip_size"			"-1"
+	"default_clip"			"1"
+	
+	"weight"			"0"
+	"item_flags"			"0"
+	"ITEM_FLAG_EXHAUSTIBLE"		"1"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"reload"		"Weapon_Grenade.WorldReloadK98"
+		"single_shot"		"Weapon_Grenade.Shoot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon_s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"675"
+			"y"		"447"
+			"width"		"349"
+			"height"	"93"
+		}
+		"weapon_g"
+		{	
+			"file"		"sprites/hud/dod_weapons01_glow"
+			"x"		"675"
+			"y"		"447"
+			"width"		"349"
+			"height"	"93"
+		}
+		"ammo"
+		{
+			"file"		"sprites/hud/clips_bullets"
+			"x"		"231""y"		"15""width"		"28""height"	"124"
+		}
+	}
+}

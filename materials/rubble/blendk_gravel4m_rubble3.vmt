@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "rubble/rubble001"
+	"$basetexture2" "rubble/rubble002"
+	"%tooltexture" "rubble/blendk_gravel4m_rubble3"
+	"$surfaceprop" "gravel"	
+}

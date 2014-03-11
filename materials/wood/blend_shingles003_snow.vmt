@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "wood/shingles003"
+	"$basetexture2" "ground\snow01"
+	"$surfaceprop" "wood"
+	"$blendmodulatetexture" "wood/shingles003blendtexture"
+}

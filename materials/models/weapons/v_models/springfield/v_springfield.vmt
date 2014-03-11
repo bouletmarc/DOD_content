@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\springfield/v_springfield"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmapsaturation" .3 .8 .1
+	"$model" 1
+}

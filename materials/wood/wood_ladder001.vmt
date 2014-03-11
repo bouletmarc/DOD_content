@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Wood/Wood_ladder001"
+	"$surfaceprop" "wood"
+	"$alphatest" 1
+	"%keywords" "dod" 
+}

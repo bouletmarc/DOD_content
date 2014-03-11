@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "plaster/plasterwall04"
+	"%keywords" "dod"
+	"$surfaceprop" "plaster"
+//	"$bumpmap" "plaster/plasterwall04_normal"
+}

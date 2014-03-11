@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+
+	"$basetexture" "overviews/dod_argentan"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$no_fullbright" "1"
+	"$ignorez" "1"
+}

@@ -1,0 +1,14 @@
+
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_italian/Bicycle01a"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$surfaceprop" "metal"
+ 		"vertexlitgeneric_HDR_dx9"
+ 		{
+  			"$envmaptint" "[.33 .33 .33]"
+ 		}
+	
+}
+

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/facade_germany/Bldg_HotelA_low"
+    "$envmap" "env_cubemap"
+    "$envmapmask" "models/facade_germany/Bldg_HotelA_low_SPEC01"
+    "$alphatest"   1
+    "$selfillum_envmapmask_alpha" "1"
+ 
+}
